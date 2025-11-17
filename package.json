@@ -1,0 +1,18 @@
+{
+  "name": "cine-api",
+  "version": "1.0.0",
+  "description": "API Rest para administracion de peliculas favoritas de trabajadores y colaboradores en Iplacex",
+  "license": "Apache-2.0",
+  "author": "Iplacex - Mirko Nuñez",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongodb": "^7.0.0"
+  }
+}
